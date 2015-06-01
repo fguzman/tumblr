@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		941430341B1C111A00D29E2A /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941430331B1C111A00D29E2A /* Common.swift */; };
+		9440AE861B1836D800129986 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9440AE851B1836D800129986 /* TabBarViewController.swift */; };
+		948C5C671B1A339500FA91E7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C5C661B1A339500FA91E7 /* HomeViewController.swift */; };
+		948C5C691B1A33A100FA91E7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C5C681B1A33A100FA91E7 /* SearchViewController.swift */; };
+		948C5C6B1B1A33A900FA91E7 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C5C6A1B1A33A900FA91E7 /* TrendingViewController.swift */; };
+		948C5C6D1B1A33B100FA91E7 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C5C6C1B1A33B100FA91E7 /* AccountViewController.swift */; };
+		948C5C701B1A340500FA91E7 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C5C6F1B1A340500FA91E7 /* ComposeViewController.swift */; };
 		94E9CC771B17F9D10084B644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9CC761B17F9D10084B644 /* AppDelegate.swift */; };
 		94E9CC791B17F9D10084B644 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9CC781B17F9D10084B644 /* ViewController.swift */; };
 		94E9CC7C1B17F9D10084B644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E9CC7A1B17F9D10084B644 /* Main.storyboard */; };
@@ -26,6 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		941430331B1C111A00D29E2A /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		9440AE851B1836D800129986 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		948C5C661B1A339500FA91E7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		948C5C681B1A33A100FA91E7 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		948C5C6A1B1A33A900FA91E7 /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		948C5C6C1B1A33B100FA91E7 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		948C5C6F1B1A340500FA91E7 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		94E9CC711B17F9D10084B644 /* tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E9CC751B17F9D10084B644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94E9CC761B17F9D10084B644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +70,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		948C5C6E1B1A33BA00FA91E7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				948C5C661B1A339500FA91E7 /* HomeViewController.swift */,
+				948C5C681B1A33A100FA91E7 /* SearchViewController.swift */,
+				948C5C6F1B1A340500FA91E7 /* ComposeViewController.swift */,
+				948C5C6C1B1A33B100FA91E7 /* AccountViewController.swift */,
+				948C5C6A1B1A33A900FA91E7 /* TrendingViewController.swift */,
+				9440AE851B1836D800129986 /* TabBarViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		94E9CC681B17F9D00084B644 = {
 			isa = PBXGroup;
 			children = (
@@ -77,9 +104,11 @@
 		94E9CC731B17F9D10084B644 /* tumblr */ = {
 			isa = PBXGroup;
 			children = (
+				948C5C6E1B1A33BA00FA91E7 /* View Controllers */,
 				94E9CC761B17F9D10084B644 /* AppDelegate.swift */,
 				94E9CC781B17F9D10084B644 /* ViewController.swift */,
 				94E9CC7A1B17F9D10084B644 /* Main.storyboard */,
+				941430331B1C111A00D29E2A /* Common.swift */,
 				94E9CC7D1B17F9D10084B644 /* Images.xcassets */,
 				94E9CC7F1B17F9D10084B644 /* LaunchScreen.xib */,
 				94E9CC741B17F9D10084B644 /* Supporting Files */,
@@ -212,8 +241,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				948C5C691B1A33A100FA91E7 /* SearchViewController.swift in Sources */,
 				94E9CC791B17F9D10084B644 /* ViewController.swift in Sources */,
+				948C5C6D1B1A33B100FA91E7 /* AccountViewController.swift in Sources */,
+				948C5C701B1A340500FA91E7 /* ComposeViewController.swift in Sources */,
+				941430341B1C111A00D29E2A /* Common.swift in Sources */,
+				9440AE861B1836D800129986 /* TabBarViewController.swift in Sources */,
 				94E9CC771B17F9D10084B644 /* AppDelegate.swift in Sources */,
+				948C5C671B1A339500FA91E7 /* HomeViewController.swift in Sources */,
+				948C5C6B1B1A33A900FA91E7 /* TrendingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +445,7 @@
 				94E9CC921B17F9D10084B644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94E9CC931B17F9D10084B644 /* Build configuration list for PBXNativeTarget "tumblrTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +454,7 @@
 				94E9CC951B17F9D10084B644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
